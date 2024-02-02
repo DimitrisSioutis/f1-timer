@@ -1,3 +1,5 @@
+https://f1-lights-out.netlify.app/
+
 This is fun reaction time test
 based on the model of the start in F1 Races
 
