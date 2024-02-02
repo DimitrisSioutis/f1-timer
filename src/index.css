@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Formula1';
+  src: url('./assets/Formula1-Regular.woff') format('woff')        
+}
+
+
+*{
+  font-family: 'Formula1';
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  height: 100svh;
+  width: 100svw;
+}
+
+.mask{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  position: absolute;
+  top: 40%;
+  right: 3%;
+}
+
+.content-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./assets/lights.webp');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  gap: 30px;
+}
+
+.lights-container{
+  position: absolute;
+  left: 37.5%;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lights{
+  height: 32svh;
+  width: 4svw;
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px; 
+
+}
+
+.light{
+  border-radius: 50%;
+  width: 2.8svw;
+  height: 2.8svw;
+  background-color: rgb(65, 65, 65);
+}
+
+.timer-container{  
+  position: absolute;
+  top: 35%;
+  left: 37.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 30px solid rgb(220, 220, 220);
+  color: rgb(220, 220, 220);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgb(126, 126, 126) 0%, rgba(25,25,25,1) 5%);
+  height: 200px;
+  width: 25%;
+}
+
+.timer{
+  font-size: 100px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+
+}
+
+.instruction{
+  font-size: clamp(0.01svw, 1.5svw , 3svw);
+  font-weight: bold;
+}
+
+
+.red-lights  .light:nth-of-type(3) ,.red-lights .light:nth-of-type(4){
+  background-color: red;
+  transition: 0s;
+  transition-delay: 1s;
+}
+/**
+.color-lights .lights:nth-of-type(2) .light:nth-of-type(3) ,.color-lights .lights:nth-of-type(2) .light:nth-of-type(4){
+  background-color: red;
+  transition: 0s;
+  transition-delay: 1s;
+}
+.color-lights .lights:nth-of-type(3) .light:nth-of-type(3) ,.color-lights .lights:nth-of-type(3) .light:nth-of-type(4){
+  background-color: red;
+  transition: 0s;
+  transition-delay: 2s;
+}
+.color-lights .lights:nth-of-type(4) .light:nth-of-type(3) ,.color-lights .lights:nth-of-type(4) .light:nth-of-type(4){
+  background-color: red;
+  transition: 0s;
+  transition-delay: 3s;
+}
+.color-lights .lights:nth-of-type(5) .light:nth-of-type(3) ,.color-lights .lights:nth-of-type(5) .light:nth-of-type(4){
+  background-color: red;
+  transition: 0s;
+  transition-delay: 4s;
+}**/
+
+@media (max-width: 1024px) {
+  
+  canvas {
+    top: 32%;
+    right: 10%;
+  }
+
+
+  .lights-container{
+    top: 12%;
+    left: 10%;
+    width: 80%;
+  }
+
+  .lights{
+    height: 25svh;
+    width: 11svw;
+  }
+
+  .light{
+    border-radius: 50%;
+    width: clamp( 5px,6svw,6svw);
+    height: clamp( 5px,6svw,6svw);
+    background-color: rgb(65, 65, 65);
+  }
+
+  .timer-container{  
+    top: 40%;
+    left: 10%;
+    height: 30svw;
+    width: 80%;
+  }
+
+  .timer{
+    font-size: clamp(40px, 15svw, 20svw);
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+
+  }
+
+  .instruction{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  .red-lights  .light:nth-of-type(3) ,.red-lights .light:nth-of-type(4){
+    background-color: red;
+    transition: 0s;
+    transition-delay: 1s;
+  }
+}
