@@ -1,0 +1,11 @@
+Model Information:
+* title:	F1 2022 Generic Free (for @TheoDevF12)
+* source:	https://sketchfab.com/3d-models/f1-2022-generic-free-for-theodevf12-03a7c467b67e48ca9d0b6e9272ef0732
+* author:	Posti Cloudmuziq Mästaré Formula 1 Team (https://sketchfab.com/PostiF1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "F1 2022 Generic Free (for @TheoDevF12)" (https://sketchfab.com/3d-models/f1-2022-generic-free-for-theodevf12-03a7c467b67e48ca9d0b6e9272ef0732) by Posti Cloudmuziq Mästaré Formula 1 Team (https://sketchfab.com/PostiF1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
