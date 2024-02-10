@@ -1,5 +1,5 @@
 import React , {useState, useRef} from 'react'
-import audio from '../public/assets/beep.mp3';
+import audio from '/assets/beep.mp3';
 
 function Timer({ setStartCarAnimation}) {
 

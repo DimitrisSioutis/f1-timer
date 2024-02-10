@@ -1,11 +1,12 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef,  useEffect } from "react";
 import {  PerspectiveCamera } from "@react-three/drei";
 import { useFrame,useLoader} from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
-export default function Scene({ startCarAnimation, setStartCarAnimation ,zPosition,setZPosition }) {
+
+export default function Scene({ startCarAnimation, setStartCarAnimation }) {
   
-  const gltf = useLoader(GLTFLoader, '../public/assets/car/scene.gltf')
+  const gltf = useLoader(GLTFLoader, '/assets/car/scene.gltf')
   const groupRef = useRef();
   const cameraRef = useRef();
   const targetPosition = -100;

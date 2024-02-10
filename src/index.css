@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Formula1';
-  src: url('./assets/Formula1-Regular.woff') format('woff')        
+  src: url('/assets/Formula1-Regular.woff') format('woff')        
 }
 
 
@@ -14,7 +14,7 @@
 main{
   height: 100svh;
   width: 100svw;
-  background: url('../public/assets/track.webp');  
+  background: url('/assets/track.webp');  
   background-size: cover;
   background-position: center;
 }
